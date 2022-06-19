@@ -20,9 +20,21 @@
     color: white;
     font-size: x-large;
 }
+
 #navbar ul li p:hover{
     cursor: default;
     text-decoration: underline;
 
 }
 
+/* ----- Responsive max-width screen : 600px ----- */
+@media screen and (max-width: 600px) {
+
+    #navbar ul li{
+        margin: 0vh 0vw;
+    }
+
+    #navbar ul li p{
+        font-size: medium;
+    }
+}

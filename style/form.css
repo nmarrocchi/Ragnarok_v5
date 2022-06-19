@@ -69,3 +69,23 @@ label, input[type="checkbox"]{
     margin-bottom: 1vh; 
     color: #db552c;
 }
+
+/* ----- Responsive max-width screen : 600px ----- */
+@media screen and (max-width: 600px) {
+
+    .Form{
+        width: 70%;
+    }
+
+    #container_cube{
+        display: none;
+    }
+}
+
+/* ----- Responsive width <915 & >600 ----- */
+@media screen and (max-width: 915px) and (min-width: 600px) {
+
+    .Form{
+        width: 40vw;
+    }
+}
