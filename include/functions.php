@@ -2,7 +2,7 @@
 
   try
   {
-      $bdd = new PDO('mysql:host=mysql-ragnarok.alwaysdata.net; dbname=ragnarok_v5', 'ragnarok', 'Ragnarok/V5/');
+      $bdd = new PDO('mysql:host=mysql-ragnarok-v5.alwaysdata.net; dbname=ragnarok-v5_ragnarok_v5', '273246', '0ver_Draw070902');
   }
 
   catch(Exception $e)
