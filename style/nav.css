@@ -1,0 +1,28 @@
+#navbar{
+    width: 100%;
+    background-color: #f4511e;
+}
+
+#navbar ul{
+    height: 5vh;
+    text-align: center;
+}
+
+#navbar ul li{
+    display: inline-block;
+    margin: 0vh 2vw;
+    font-size: medium;
+    line-height: 5vh;
+    text-align: center;
+}
+
+#navbar ul li p{
+    color: white;
+    font-size: x-large;
+}
+#navbar ul li p:hover{
+    cursor: default;
+    text-decoration: underline;
+
+}
+

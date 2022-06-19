@@ -1,0 +1,131 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+
+html{
+  background-image: url(../img/fond.png);
+  font-family: Montserrat, sans-serif;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+a:link {color: #ad2b03; text-decoration: none;}
+a:visited {color: #ad2b03; text-decoration: none;}
+a:hover {color: #ad2b03; text-decoration: underline;}
+a:active {color: #ad2b03; text-decoration: none;}
+
+h1{
+  text-align: center;
+  margin-bottom: 4vh;
+  color: #d13607;
+}
+
+.content{
+  border-left: solid #f4511e 3px;
+  border-right: solid #f4511e 3px;
+  border-bottom: solid #f4511e 3px;
+  width: 60vw;
+  margin: 0vh auto 0vh 10vw;
+  padding-top: 3vh;
+  background-color: aliceblue;
+  font-size: larger;
+  color: #f4511e;
+}
+
+#Server_Content{
+  padding: 5vh 4vw;
+}
+
+.content p{
+  padding-top: 2vh;
+}
+
+#Server_State{
+  padding-bottom: 5vh;
+}
+
+#Model3D{
+  float: right;
+  width: 20vw;
+  height: auto;
+  margin: 1vh auto 1vh 1vw;
+}
+
+#Server, #Server_IP{
+  font-size: medium;
+  width: 25vw;
+  border: solid #f4511e 2px;
+  padding: 1vh 1vw;
+  color: green;
+  text-align: center;
+  border-radius: 0px 50px 0px 50px;
+}
+
+#Server_IP{
+  margin-left: 4vw;
+}
+
+i{
+  color: rgb(62, 194, 50);
+}
+
+#Gameplay{
+  font-weight: bold;
+  text-decoration: underline;
+  margin-top: 2vh;
+}
+
+.Gameplay_Text{
+  padding-left: 3vw;
+}
+
+#Fire{
+  width: 30vw;
+  margin: 3vh auto 3vh 0vw;
+  border: solid transparent 1px;
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+#helpfull-links{
+  border-top: solid #f4511e 3px;
+  background-color: #f3f3f3;
+  padding: 5vh 4vw;
+}
+
+#helpfull-links h1{
+  margin: 2vh;
+}
+
+#contact, #news{
+  padding-left: 2vw;
+  padding-bottom: 5vh;
+  border-top: solid #f4511e 3px;
+  border-bottom: solid #f4511e 3px;
+}
+
+#news{
+  text-align: center;
+}
+
+#contact h2, #news h2{
+  text-align: center;
+  margin: 1vh auto 3vh auto;
+  color: #d13607;
+}
+
+#contact p{
+  font-size: large;
+}
+
+#footer{
+  background-color: black;
+  text-align: center;
+  color: white;
+}
+
+#footer p{
+  padding-bottom: 2vh;
+}

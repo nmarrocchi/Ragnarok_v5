@@ -1,0 +1,45 @@
+#User_picture{
+  height: 10vh;
+  margin: 1vh 1vw 1vh 3vw;
+  float: left;
+}
+
+#User_pseudo{
+  display: block;
+  text-align: left;
+}
+
+#User_registration{
+  display: block;
+}
+
+#User_Banner{
+  height: fit-content;
+}
+
+#debugTextArea{
+  margin-top: 3vh;
+  width: 80%;
+  resize: none;
+}
+
+#inputText{
+  width: 60%;
+  margin: 2vh auto;
+}
+
+#Message_text{
+  text-align: center;
+}
+
+#Ragnarok_Chat{
+  margin: 5vh auto;
+  width: 80%;
+  border: solid black 1px;
+}
+
+.chatMessage{
+  border: solid grey 1px;
+  border-radius: 10px;
+  margin: 1vh 0.5vw;
+}

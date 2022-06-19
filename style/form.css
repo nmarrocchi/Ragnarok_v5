@@ -1,0 +1,71 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+html{
+    background-image: url(../img/fond.png);
+    font-family: Montserrat, sans-serif;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+a:link {color: #ad2b03; text-decoration: none;}
+a:visited {color: #ad2b03; text-decoration: none;}
+a:hover {color: #ad2b03; text-decoration: underline;}
+a:active {color: #ad2b03; text-decoration: none;}
+
+.Form{
+    width: 20vw;
+    padding: 3vh 2vw;
+    margin: 2vh auto 5vh auto;
+    text-align: center;
+    border-left: solid black 1px;
+    border-right: solid black 1px;
+    border-bottom: solid black 1px;
+    box-shadow: black 1px 3px;
+    /* Gradient background with max compatibility */
+    background: rgb(255,255,255);
+    background: -moz-linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 70%, rgba(255,255,255,0.36878501400560226) 100%);
+    background: -webkit-linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 70%, rgba(255,255,255,0.36878501400560226) 100%);
+    background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 70%, rgba(255,255,255,0.36878501400560226) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ffffff",endColorstr="#ffffff",GradientType=1);
+    z-index: 1;
+}
+
+h1{
+    color: #d13607;
+    margin: 2vh auto;
+}
+
+.Form input[type='submit'], .Form input[type='text'], .Form input[type='password'], .Form input[type='mail']{
+    font-family: Montserrat, sans-serif;
+    display: block;
+    margin: 2vh auto;
+    padding: 1vh 1vw;
+    min-height: 45px;
+    border-radius: 50px 50px 50px 50px / 50px 50px 50px 50px;
+    box-sizing: border-box;
+    width: 100%;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+.Form input[type='submit']{
+    background-color: #b62c02;
+    border: solid transparent 1px;
+    color: white;
+    font-size: x-large;
+    transition: background-color .15s ease-in-out;
+}
+
+.Form input[type='submit']:hover{
+    background-color: #db552c;
+    transition: background-color .15s ease-in-out;
+}
+
+label, input[type="checkbox"]{
+    display: inline-block;
+    margin-bottom: 1vh; 
+    color: #db552c;
+}
