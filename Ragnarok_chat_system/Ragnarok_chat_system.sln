@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.1684
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Ragnarok_chat_system", "Ragnarok_chat_system\Ragnarok_chat_system.vcxproj", "{BB6E649D-29B5-4732-9242-9D29F265FD8F}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "qtvars", "Ragnarok_chat_system\x64\Debug\qmake\temp\qtvars.vcxproj", "{D4823A4C-40B1-30DE-B693-C9704E78EAA3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BB6E649D-29B5-4732-9242-9D29F265FD8F}.Debug|x64.ActiveCfg = Debug|x64
+		{BB6E649D-29B5-4732-9242-9D29F265FD8F}.Debug|x64.Build.0 = Debug|x64
+		{BB6E649D-29B5-4732-9242-9D29F265FD8F}.Release|x64.ActiveCfg = Release|x64
+		{BB6E649D-29B5-4732-9242-9D29F265FD8F}.Release|x64.Build.0 = Release|x64
+		{D4823A4C-40B1-30DE-B693-C9704E78EAA3}.Debug|x64.ActiveCfg = Debug|x64
+		{D4823A4C-40B1-30DE-B693-C9704E78EAA3}.Debug|x64.Build.0 = Debug|x64
+		{D4823A4C-40B1-30DE-B693-C9704E78EAA3}.Release|x64.ActiveCfg = Debug|x64
+		{D4823A4C-40B1-30DE-B693-C9704E78EAA3}.Release|x64.Build.0 = Debug|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D354CD4B-486D-4E0E-A23D-CC863F9B12BD}
+	EndGlobalSection
+EndGlobal
